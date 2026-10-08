@@ -1,0 +1,15 @@
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Arial,Helvetica,sans-serif}
+body{background:#050509;color:#fff}
+.language-menu{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;background:radial-gradient(circle at top,#111a36 0,#07070b 45%,#000 100%)}
+.menu-card{width:min(760px,100%);padding:48px 34px;border:1px solid rgba(13,110,253,.45);border-radius:24px;background:rgba(10,10,18,.9);box-shadow:0 24px 80px rgba(0,0,0,.55);text-align:center}
+.badge{display:inline-block;padding:7px 14px;border-radius:999px;background:#0d6efd;color:#fff;font-size:12px;font-weight:800;letter-spacing:2px}
+.menu-card h1{margin:18px 0 8px;font-size:clamp(30px,5vw,48px);color:#58a6ff}
+.menu-card p{margin:0 0 30px;color:#c9d1d9;font-size:18px}
+.language-options{display:flex;gap:22px;justify-content:center;flex-wrap:wrap}
+.language-button{width:min(280px,100%);padding:18px;text-decoration:none;color:#fff;background:#111827;border:1px solid #30363d;border-radius:18px;transition:.2s transform,.2s border-color,.2s background}
+.language-button:hover{transform:translateY(-5px);border-color:#0d6efd;background:#172033}
+.language-button img{display:block;width:100%;height:120px;object-fit:cover;border-radius:12px;margin-bottom:14px}
+.language-button span{font-size:21px;font-weight:700}
+.menu-card small{display:block;margin-top:30px;color:#8b949e}
+@media(max-width:600px){.menu-card{padding:34px 20px}.language-options{gap:14px}.language-button img{height:95px}}
